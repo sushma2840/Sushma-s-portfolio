@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sushma Sharma | Aspiring Data Analyst</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
@@ -20,7 +20,7 @@
     .top-banner {
       width: 100%;
       height: 25vh;
-      background: url('https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center/cover;
+      background: url('https://static.wixstatic.com/media/60e608_1765c8db36d64ac7b8f702b33874d15a~mv2.jpg/v1/fill/w_800,h_667,al_c,q_85/60e608_1765c8db36d64ac7b8f702b33874d15a~mv2.jpg') no-repeat center/cover;
     }
     header {
       background: linear-gradient(135deg, #a8e6cf, #dcedc1);
@@ -90,7 +90,9 @@
     .project-card img {
       width: 100%;
       height: 150px;
-      object-fit: cover;
+      object-fit: contain;
+      padding: 20px;
+      background: #f0fdf4;
     }
     .project-card h3 {
       margin: 15px 0;
@@ -110,13 +112,6 @@
 </head>
 <body>
   <div class="top-banner"></div>
-  <style>
-  .top-banner {
-    width: 100%;
-    height: 25vh;
-    background: url('https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center/cover;
-  }
-</style>
 
   <header>
     <h1>Sushma Sharma</h1>
@@ -140,15 +135,21 @@
     <h2>Projects</h2>
     <div class="projects">
       <div class="project-card">
-        <a href="#"><img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80" alt="Excel Project"></a>
+        <a href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel Project" />
+        </a>
         <h3><a href="#">Excel Project</a></h3>
       </div>
       <div class="project-card">
-        <a href="#"><img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=600&q=80" alt="SQL Project"></a>
+        <a href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="SQL Project" />
+        </a>
         <h3><a href="#">SQL Project</a></h3>
       </div>
       <div class="project-card">
-        <a href="#"><img src="https://images.unsplash.com/photo-1581091870622-1e7e74a4f673?auto=format&fit=crop&w=600&q=80" alt="Python Project"></a>
+        <a href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python Project" />
+        </a>
         <h3><a href="#">Python Project</a></h3>
       </div>
     </div>
